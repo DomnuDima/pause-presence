@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import LanguageToggle from '@/components/LanguageToggle';
-import BreathingCircle from '@/components/BreathingCircle';
 import { Activity, Flame, Wind } from 'lucide-react';
 
 interface DashboardPageProps {
@@ -14,8 +13,9 @@ const DashboardPage = ({ userName }: DashboardPageProps) => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-background px-6 py-8">
+    <div className="min-h-screen bg-background px-6 py-8 pb-28">
       <div className="max-w-md mx-auto space-y-6">
+
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
@@ -43,10 +43,10 @@ const DashboardPage = ({ userName }: DashboardPageProps) => {
           <h3 className="text-sm font-medium text-muted-foreground mb-3">{t('dashboard.biomarkers')}</h3>
           <div className="grid grid-cols-2 gap-3">
             {[
-              { label: 'BPM', value: '--', icon: Activity },
-              { label: 'Temp', value: '--°C', icon: Activity },
-              { label: 'Sweat', value: '--', icon: Activity },
-              { label: 'Movement', value: '--', icon: Activity },
+              { label: 'BPM',      value: '--'   },
+              { label: 'Temp',     value: '--°C' },
+              { label: 'Sweat',    value: '--'   },
+              { label: 'Movement', value: '--'   },
             ].map(item => (
               <div key={item.label} className="bg-secondary rounded-xl p-3 text-center">
                 <p className="text-xs text-muted-foreground">{item.label}</p>
@@ -83,6 +83,7 @@ const DashboardPage = ({ userName }: DashboardPageProps) => {
             <p className="text-muted-foreground text-sm">{t('dashboard.noEpisodes')}</p>
           </Card>
         </div>
+
       </div>
     </div>
   );

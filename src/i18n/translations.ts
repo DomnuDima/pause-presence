@@ -1,9 +1,9 @@
 export const translations = {
   en: {
     translation: {
-      app: { name: "PULZ", tagline: "Between Impulse & Action" },
+      app: { name: "PulZ", tagline: "Between Impulse & Action" },
       auth: {
-        welcome: "Welcome to PULZ",
+        welcome: "Welcome to PulZ",
         signIn: "Sign in to continue",
         continueWithGoogle: "Continue with Google",
         continueWithApple: "Continue with Apple",
@@ -14,12 +14,12 @@ export const translations = {
       },
       disclaimer: {
         title: "Before we begin",
-        text: "PULZ is not a medical application and does not provide therapy or clinical diagnosis. It is a self-awareness tool designed to help you identify personal behavioral patterns. We encourage you to share your insights with a qualified therapist or healthcare professional.",
+        text: "PulZ is not a medical application and does not provide therapy or clinical diagnosis. It is a self-awareness tool designed to help you identify personal behavioral patterns. We encourage you to share your insights with a qualified therapist or healthcare professional.",
         agree: "I understand & agree",
       },
       onboarding: {
         welcome: {
-          title: "Welcome to PULZ",
+          title: "Welcome to PulZ",
           subtitle: "Your calm companion between impulse and action",
           begin: "Let's begin",
         },
@@ -48,7 +48,7 @@ export const translations = {
         },
         goals: {
           title: "Your goals",
-          subtitle: "What do you hope to gain from PULZ?",
+          subtitle: "What do you hope to gain from PulZ?",
           awareness: "Self-awareness",
           patterns: "Pattern recognition",
           therapySupport: "Support between therapy sessions",
@@ -80,7 +80,7 @@ export const translations = {
         complete: {
           title: "You're all set",
           subtitle: "Remember: every pause is a victory. We're here with you, one breath at a time.",
-          enter: "Enter PULZ",
+          enter: "Enter PulZ",
         },
         next: "Continue",
         back: "Back",
@@ -95,13 +95,78 @@ export const translations = {
         recentEpisodes: "Recent episodes",
         noEpisodes: "No episodes recorded yet",
       },
+      fab: {
+        addNote: "Add Note",
+        logEpisode: "Log Episode",
+      },
+      notes: {
+        title: "Quick Note",
+        placeholder: "What's on your mind?",
+        markImportant: "Mark as important",
+        save: "Save note",
+        saved: "Note saved",
+        saveError: "Could not save note. Please try again.",
+        importantNotes: "Important Notes",
+      },
+      episodeLog: {
+        title: "Log Episode",
+        step: "{{current}} / {{total}}",
+        saved: "Episode logged",
+        saveError: "Could not save. Please try again.",
+        status: {
+          label: "What happened?",
+          episode: "It was an episode",
+          unsure: "I'm not sure",
+          avoided: "It was avoided",
+          other: "Other",
+          otherPlaceholder: "Describe in your own words…",
+        },
+        emotions: {
+          label: "How were you feeling?",
+          sublabel: "Select all that apply",
+          anxious: "Anxious",
+          sad: "Sad",
+          lonely: "Lonely",
+          bored: "Bored",
+          stressed: "Stressed",
+          overwhelmed: "Overwhelmed",
+          happy: "Happy",
+          angry: "Angry",
+          other: "Other",
+          otherPlaceholder: "Describe the feeling…",
+        },
+        trigger: {
+          label: "What triggered it?",
+          placeholder: "A situation, thought, or feeling…",
+        },
+        before: {
+          label: "What were you doing before?",
+          placeholder: "Activity, place, or context…",
+        },
+        intensity: {
+          label: "Intensity level",
+          hint: "mild",
+          hintHigh: "overwhelming",
+        },
+        helped: {
+          label: "What helped or didn't help?",
+          placeholder: "Anything you tried, or wished you had…",
+        },
+        additionalNotes: {
+          label: "Additional notes",
+          placeholder: "Anything else you'd like to remember…",
+        },
+        next: "Next",
+        back: "Back",
+        save: "Save",
+      },
     },
   },
   ro: {
     translation: {
-      app: { name: "PULZ", tagline: "Între Impuls și Acțiune" },
+      app: { name: "PulZ", tagline: "Între Impuls și Acțiune" },
       auth: {
-        welcome: "Bine ai venit la PULZ",
+        welcome: "Bine ai venit la PulZ",
         signIn: "Autentifică-te pentru a continua",
         continueWithGoogle: "Continuă cu Google",
         continueWithApple: "Continuă cu Apple",
@@ -112,12 +177,12 @@ export const translations = {
       },
       disclaimer: {
         title: "Înainte de a începe",
-        text: "PULZ nu este o aplicație medicală și nu oferă terapie sau diagnostic clinic. Este un instrument de autocunoaștere conceput pentru a te ajuta să identifici tipare comportamentale personale. Te încurajăm să împărtășești descoperirile tale cu un terapeut calificat sau un profesionist în domeniul sănătății.",
+        text: "PulZ nu este o aplicație medicală și nu oferă terapie sau diagnostic clinic. Este un instrument de autocunoaștere conceput pentru a te ajuta să identifici tipare comportamentale personale. Te încurajăm să împărtășești descoperirile tale cu un terapeut calificat sau un profesionist în domeniul sănătății.",
         agree: "Înțeleg și sunt de acord",
       },
       onboarding: {
         welcome: {
-          title: "Bine ai venit la PULZ",
+          title: "Bine ai venit la PulZ",
           subtitle: "Companionul tău calm între impuls și acțiune",
           begin: "Să începem",
         },
@@ -146,7 +211,7 @@ export const translations = {
         },
         goals: {
           title: "Obiectivele tale",
-          subtitle: "Ce speri să obții de la PULZ?",
+          subtitle: "Ce speri să obții de la PulZ?",
           awareness: "Autocunoaștere",
           patterns: "Recunoașterea tiparelor",
           therapySupport: "Sprijin între ședințele de terapie",
@@ -178,7 +243,7 @@ export const translations = {
         complete: {
           title: "Ești pregătită",
           subtitle: "Amintește-ți: fiecare pauză este o victorie. Suntem aici cu tine, o respirație la un moment dat.",
-          enter: "Intră în PULZ",
+          enter: "Intră în PulZ",
         },
         next: "Continuă",
         back: "Înapoi",
@@ -192,6 +257,71 @@ export const translations = {
         needPause: "Am nevoie de o pauză",
         recentEpisodes: "Episoade recente",
         noEpisodes: "Niciun episod înregistrat încă",
+      },
+      fab: {
+        addNote: "Adaugă notă",
+        logEpisode: "Înregistrează episod",
+      },
+      notes: {
+        title: "Notă rapidă",
+        placeholder: "Ce îți trece prin minte?",
+        markImportant: "Marchează ca important",
+        save: "Salvează nota",
+        saved: "Notă salvată",
+        saveError: "Nu s-a putut salva. Încearcă din nou.",
+        importantNotes: "Note importante",
+      },
+      episodeLog: {
+        title: "Înregistrează episod",
+        step: "{{current}} / {{total}}",
+        saved: "Episod înregistrat",
+        saveError: "Nu s-a putut salva. Încearcă din nou.",
+        status: {
+          label: "Ce s-a întâmplat?",
+          episode: "A fost un episod",
+          unsure: "Nu sunt sigură",
+          avoided: "A fost evitat",
+          other: "Altele",
+          otherPlaceholder: "Descrie în propriile cuvinte…",
+        },
+        emotions: {
+          label: "Cum te simțeai?",
+          sublabel: "Selectează tot ce se aplică",
+          anxious: "Anxioasă",
+          sad: "Tristă",
+          lonely: "Singură",
+          bored: "Plictisită",
+          stressed: "Stresată",
+          overwhelmed: "Copleșită",
+          happy: "Fericită",
+          angry: "Furioasă",
+          other: "Altele",
+          otherPlaceholder: "Descrie sentimentul…",
+        },
+        trigger: {
+          label: "Ce a declanșat-o?",
+          placeholder: "O situație, gând sau sentiment…",
+        },
+        before: {
+          label: "Ce făceai înainte?",
+          placeholder: "Activitate, loc sau context…",
+        },
+        intensity: {
+          label: "Nivelul de intensitate",
+          hint: "ușor",
+          hintHigh: "copleșitor",
+        },
+        helped: {
+          label: "Ce a ajutat sau nu a ajutat?",
+          placeholder: "Orice ai încercat sau ai fi vrut să încerci…",
+        },
+        additionalNotes: {
+          label: "Note adiționale",
+          placeholder: "Orice altceva ai vrea să îți amintești…",
+        },
+        next: "Continuă",
+        back: "Înapoi",
+        save: "Salvează",
       },
     },
   },
