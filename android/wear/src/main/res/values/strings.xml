@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PULZ Wear</string>
+    <string name="default_status">Ready for a quick check-in</string>
+    <string name="pause_now">Pause now</string>
+    <string name="calm_button">I feel calm</string>
+    <string name="urge_button">I feel an urge</string>
+    <string name="pause_count_default">Pause count: 0</string>
+    <string name="pause_count_template">Pause count: %1$d</string>
+</resources>

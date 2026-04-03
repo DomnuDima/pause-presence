@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pulz_background">#09141A</color>
+    <color name="pulz_primary">#9FE8D8</color>
+    <color name="pulz_secondary">#D7F4EC</color>
+    <color name="pulz_alert">#A63C4B</color>
+    <color name="pulz_muted">#B5C7C4</color>
+</resources>

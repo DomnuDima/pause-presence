@@ -1,0 +1,11 @@
+<strings>
+    <string id="AppName">PULZ</string>
+    <string id="Title">PULZ</string>
+    <string id="Subtitle">Pause before acting</string>
+    <string id="Calm">Calm</string>
+    <string id="Urge">Urge</string>
+    <string id="Pause">Pause</string>
+    <string id="PausePrompt">Take 3 slow breaths</string>
+    <string id="CalmState">Steady and calm</string>
+    <string id="UrgeState">Urge noticed</string>
+</strings>
